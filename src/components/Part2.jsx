@@ -3,6 +3,7 @@ import RotateLogo from "./RotateLogo";
 import "../App.css";
 import TextPart from "./TextPart";
 import Video from "./Video";
+import Qoute from "./Qoute";
 export default function Part2() {
   return (
     <div
@@ -29,6 +30,7 @@ export default function Part2() {
           autoplay={true}
           loop={true}
         />
+        <Qoute />
       </div>
     </div>
   );
