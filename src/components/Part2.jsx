@@ -30,7 +30,11 @@ export default function Part2() {
           autoplay={true}
           loop={true}
         />
-        <Qoute />
+        <Qoute
+          style={{
+            marginBottom: "50px",
+          }}
+        />
       </div>
     </div>
   );
