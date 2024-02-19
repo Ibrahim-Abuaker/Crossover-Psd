@@ -1,0 +1,18 @@
+.qWrapper {
+    display: flex;
+    font-size: 48px;
+    text-align: center;
+    color: #1a453b;
+    min-height: 70vh;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 15vw;
+}
+
+.bgImg {
+    background-image: url("/quote.svg");
+    background-size: 200px 200px;
+    background-position: 150px 100px;
+    background-repeat: no-repeat;
+
+}
