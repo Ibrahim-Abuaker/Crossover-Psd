@@ -1,4 +1,17 @@
-.container {
+.bg {
     background-color: #F3F4F2;
+
+
+}
+
+.position {
+    display: flex;
+    justify-content: space-between;
+}
+
+.center {
+    max-width: 1360px;
+    margin: 0 auto;
+    padding-top: 20px;
 
 }

@@ -1,0 +1,88 @@
+.text {
+    color: #1a453b;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 1.3em;
+}
+
+.textWrapper {
+    max-width: 50%;
+}
+
+.about {
+    margin-top: 80px;
+    display: flex;
+    gap: 15px;
+    color: #1a453b;
+    font-size: 16px;
+
+}
+
+.aboutItem {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.3em;
+}
+
+.aboutItem h4 {
+
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 1.3em;
+}
+
+.aboutItem p {
+    margin-bottom: 10px;
+}
+
+.serviceList {
+    width: 650px;
+    gap: 10px;
+    border-radius: 30px;
+    background-color: #dde3e2;
+    align-items: center;
+    margin-top: 50px;
+    padding: 10px;
+    display: flex;
+    overflow: hidden;
+}
+
+.serviceListItems {
+    gap: 24px;
+
+    align-items: center;
+    display: flex;
+}
+
+.serviceListAnim {
+    animation: slideAnimation 2s ease infinite alternate;
+}
+
+@keyframes slideAnimation {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}
+
+
+.serviceItem {
+    font-size: 18px;
+    color: #1a453b;
+    font-weight: 500;
+    line-height: 1.3em;
+}
+
+.serviceDivider {
+    width: 8px;
+    height: 8px;
+    border-radius: 30px;
+    background-color: #1a453b;
+}
