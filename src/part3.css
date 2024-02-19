@@ -4,20 +4,25 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
+
 .logos-grid-item {
     width: 40%;
     margin: 30px;
 }
 
 .blogs {
+    color: #1a453b;
     margin-top: 100px;
     width: 100%;
 }
+
 .title-wrapper {
+    color: #1a453b;
     text-align: center;
     font-family: sans-serif;
 }
-.title-wrapper > h3 {
+
+.title-wrapper h3 {
     text-align: center;
     margin: 30px;
     font-family: sans-serif;
@@ -27,9 +32,11 @@
     font-weight: 400;
     line-height: 1.3em;
 }
-.title-wrapper > h5 {
-font-family: sans-serif;   
+
+.title-wrapper h5 {
+    font-family: sans-serif;
 }
+
 .blog-posts {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -38,21 +45,28 @@ font-family: sans-serif;
     margin-top: 30px;
     width: 100%;
 }
-.blog1 , .blog2 {
+
+.blog1,
+.blog2 {
     width: 100%;
-    
+
 }
-.blog1 > h4 , blog2 > h4 {
+
+.blog1 h4,
+.blog2 h4 {
     font-family: sans-serif;
 }
+
 .blog-image {
     width: 500px;
-    border-radius:10px;
+    border-radius: 10px;
     transition: transform 0.2s ease-in-out;
 }
+
 .blog-image:hover {
     transform: scale(1.1);
-  }
+}
+
 .blog-category {
     margin-top: 20px;
     width: 70px;
@@ -62,19 +76,22 @@ font-family: sans-serif;
     text-align: center;
 }
 
-.footer{
+.footer {
     min-height: 300px;
-    background-color: #f3f4f2 ;
+    background-color: #f3f4f2;
     margin-top: 50px;
+    color: #1a453b;
     display: flex;
 }
+
 .footer-left {
     width: 50%;
     margin: 30px;
     margin-left: 70px;
 
 }
-.footer-left > h4 {
+
+.footer-left h4 {
     font-family: sans-serif;
     margin-bottom: 30px;
 }
@@ -85,16 +102,26 @@ font-family: sans-serif;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
 .rights {
+    color: #1a453b;
     min-height: 100px;
-    background-color: #f3f4f2 ;
+    background-color: #f3f4f2;
     display: flex;
     align-content: space-between;
 }
-.rights > p {
+
+.rights p {
+    color: #1a453b;
     margin-left: 50px;
     width: 90%;
-} 
+}
+
 .footer-social {
-    width: 10%;
+    height: 200px;
+    width: 100%;
+}
+
+.footer-social img {
+    width: 10px;
 }

@@ -6,10 +6,7 @@ import Video from "./Video";
 import Qoute from "./Qoute";
 export default function Part2() {
   return (
-    <div
-      className={`${Styles.bg} `}
-      style={{ marginTop: "50px", paddignTop: "10px" }}
-    >
+    <div className={`${Styles.bg} `} style={{ paddignTop: "20px" }}>
       <div className={`${Styles.center} `}>
         <div className={` ${Styles.position}`}>
           <RotateLogo />
