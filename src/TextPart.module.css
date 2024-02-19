@@ -59,7 +59,7 @@
 }
 
 .serviceListAnim {
-    animation: slideAnimation 2s ease infinite alternate;
+    animation: slideAnimation 40s linear infinite alternate;
 }
 
 @keyframes slideAnimation {
