@@ -1,0 +1,44 @@
+.rtWrapper {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    background-color: #f3f4f2;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.rtImg {
+    display: inline-block;
+    max-width: 100%;
+    animation: rotateAnimation 30s linear infinite;
+
+}
+
+@keyframes rotateAnimation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.rtIconWrapper {
+    width: 100px;
+    height: 100px;
+    border-radius: 200px;
+    background-color: #1a453b;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+}
+
+.rtIcon {
+    height: 50px;
+    max-width: 100%;
+    display: inline-block;
+}
